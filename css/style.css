@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+}
+@font-face {
+    font-family: "Alegreya Sans" ;
+    src: url(../Fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Alegreya Sans" ;
+    src: url(../Fonts/Alegreya_Sans/AlegreyaSans-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Alegreya ;
+    src: url(../Fonts/Alegreya/Alegreya-VariableFont_wght.ttf);
+  }
+.header {
+  text-align: center;
+  height: 65vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 35vh;
+}
+.header h1
+{
+    font-family: "Alegreya";
+    font-size: 76px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+.header span
+{
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.header p
+{
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    
+}
+.header button
+{
+    padding: 15px 30px;
+    margin: 15px 5px;
+    font-family: "Alegreya Sans";
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+}
+.contact-us
+{
+    background-color: transparent;
+    border: white 2px solid;
+}
+.learn
+{
+    background-color: #8E7754;
+    border: none;
+}
+.bread, .kitchen
+{
+    width: 550px;
+    float: left;
+}
+.bread img, .kitchen img
+{
+    width: 100%;
+}
+.icons img
+{
+    width: 50px;
+    border-radius: 50%;
+    border: 1px lightgrey solid;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.icons, .our-location, .contact-info
+{
+    float: left;
+    width: 45%;
+    padding: 10px 60px;
+    text-align: left;
+}
+.icons span
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.who, .location, .baking, .contact
+{
+    padding: 100px 150px;
+}
+.clear-fix
+{
+    clear: both;
+}
+h2
+{
+    font-family: "Alegreya";
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;
+}
+h3
+{
+    font-family: "Alegreya";
+    font-size: 30px;
+    font-weight: 400;
+    color: #303030;
+}
+h4
+{
+    font-family: "Alegreya";
+    font-size: 22px;
+    font-weight: 400;
+    color: #303030;
+}
+.icons p, .icons span, .our-location p, .item .item-image p, .contact-info p
+{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 32px;
+}
+.location, .contact
+{
+    background-color: #F8F8F8;
+}
+
+.item
+{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.item-image img
+{
+    width: 90%;
+}
+.baking .head
+{
+    text-align: center;
+}
+.head p
+{
+    font-size: 17px;
+    color:#888888;
+    font-family: "Alegreya Sans";
+}
+.icons .icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8E7754;
+}
+.icon.map
+{
+background-image: url(../images/Icons/map.png);
+background-size: cover;
+vertical-align: middle;
+display: inline-block;
+margin-right: 10px;
+}
+.icon.phone
+{
+background-image: url(../images/Icons/phone.png);
+background-size: cover;
+vertical-align: middle;
+display: inline-block;
+margin-right: 10px;
+}
+.icon.headphone
+{
+background-image: url(../images/Icons/headphone.png);
+background-size: cover;
+vertical-align: middle;
+display: inline-block;
+margin-right: 10px;
+}
+.icon.mail
+{
+background-image: url(../images/Icons/email.png);
+background-size: cover;
+vertical-align: middle;
+display: inline-block;
+margin-right: 10px;
+}
+.imap
+{
+    float: right    ;
+    margin-top: 40px;
+}
+.tool
+{
+    width: 280px;
+    float: left;
+    margin: 10px;
+}
+.tool img
+{
+    width: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.tools
+{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.background-tools
+{
+    background-color: #403D38;
+}
+.tool p, .tool span
+{
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #969696;
+    line-height: 32px;
+    text-align: start;
+}
+.tools h4
+{
+    font-family: "Alegreya";
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 32px;
+}
+hr
+{
+    border-bottom: 1px solid #969696;
+}
+.contact-details
+{
+    background-image: url(../images/contact-details-map.png);
+    background-size: 100% 50%  ;
+    background-repeat: no-repeat;
+    background-position: 10px 120px ;
+    
+}
+.end
+{
+    background-color: #353330;
+    text-align: center;
+}
+.logo
+{
+    padding-top: 50px;
+}
+.footer
+{
+    width: 240px;
+    margin: auto;
+}
+.footer .social
+{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #403D38;
+    float: left;
+}
+.social img
+{
+    width: 100%;
+}
+.footer p
+{
+    color: #777777;
+    font-size: 15px;
+    font-family: "Alegreya";
+}
